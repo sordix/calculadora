@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto+Mono:ital,wght@0,400;1,100&family=Source+Code+Pro:ital@1&display=swap');
+
+body {
+	background: rgb(69,109,252);
+	background: linear-gradient(90deg, rgba(69,109,252,1) 0%, rgba(156,29,253,1) 50%, rgba(69,109,252,1) 100%);
+	font-family: 'Inconsolata', monospace;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Source Code Pro', monospace;
+}
+.wrapper {
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	padding: 50px;
+	color: #000;
+	text-align: center;
+	border-radius: 10px;
+}
+.wrapper h2 {
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	margin-bottom: 10%;
+}
+input[type="text"] {
+	height: 40px;
+	border-radius: 6px;
+	margin-top: 10px;
+	width: 150px;
+	
+
+}
+input[type="text"] {
+	font-size: 24px;
+	align-items: center;
+	text-align: center;
+}
+button {
+	background: #9c1dfd;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+}
+b {
+	font-size: 20px;
+	font-weight: bolder;
+	bottom: 4px;
+	position: relative;
+}
+h1#resultArea {
+	font-size: 20px;
+}
